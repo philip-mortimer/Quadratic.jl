@@ -8,7 +8,9 @@ function ax<sup>2</sup>+bx+c.
 Run the following Julia command to install the package:
 
 ```julia
-Pkg.add("https://github.com/philip-mortimer/Quadratic.jl")
+using Pkg
+
+Pkg.add(PackageSpec(url="https://github.com/philip-mortimer/Quadratic.jl"))
 ```
 
 ## Using the package
