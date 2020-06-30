@@ -1,0 +1,2 @@
+Test Summary: | Pass  Total
+Quadratic     |   48     48

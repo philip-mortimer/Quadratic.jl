@@ -1,0 +1,8 @@
+name = "Quadratic"
+uuid = "5ca193c0-edc6-4237-9e12-fc87e02a6bf4"
+authors = ["Philip Mortimer <mortimer_philip@hotmail.com>"]
+version = "0.1.0"
+
+[deps]
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
