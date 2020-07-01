@@ -37,8 +37,8 @@ Return the value of the quadratic function.
 
 *Example*
 ```juliarepl
-julia> quadratic(8.2,2,7,0)
-191.88
+julia> quadratic(8.2,-2,7,0)
+-77.08
 ```
 
 **quadraticfunction(a, b, c)**
@@ -48,17 +48,17 @@ quadratic function ax<sup>2</sup>+bx+c.
 
 *Examples*
 ```juliarepl
-julia> f = quadraticfunction(2,7,0)
+julia> f = quadraticfunction(-2,7,0)
 #4 (generic function with 1 method)
 
 julia> f(8.2)
-191.88
+-77.08
 
 julia> f.([1.0,2.0,3.0])
-3element Array{Float64,1}:
-  9.0
- 22.0
- 39.0
+3-element Array{Float64,1}:
+ 5.0
+ 6.0
+ 3.0
 ```
 
 **getroots(a, b, c) -> QuadraticRootSet**
