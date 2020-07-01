@@ -38,7 +38,7 @@ Return the value of the quadratic function.
 *Example*
 ```juliarepl
 julia> quadratic(8.2,2,7,0)
-77.08
+191.88
 ```
 
 **quadraticfunction(a, b, c)**
@@ -52,13 +52,13 @@ julia> f = quadraticfunction(2,7,0)
 #4 (generic function with 1 method)
 
 julia> f(8.2)
-77.08
+191.88
 
 julia> f.([1.0,2.0,3.0])
 3element Array{Float64,1}:
- 5.0
- 6.0
- 3.0
+  9.0
+ 22.0
+ 39.0
 ```
 
 **getroots(a, b, c) -> QuadraticRootSet**
