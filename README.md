@@ -72,7 +72,7 @@ and ```QuadraticRoot``` are sub-types of [`QuadraticRootSet`](#quadraticrootset)
 If the discriminant is negative then the roots will be complex as they will
 contain the square root of a negative number.
 
-# Examples
+*Examples*
 ```julia-repl
 julia> r=getroots(-2, 5, 0) # 2 real roots.
 QuadraticRoots{Float64}(-0.0, 2.5)
